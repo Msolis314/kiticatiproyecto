@@ -1,0 +1,169 @@
+(footprint "AXIAL-0.3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AXIAL-0.3\n\nCommonly used for 1/4W through-hole resistors. 0.3\" pitch between holes.")
+	(property "Reference" "REF**"
+		(at 0 -1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9eb2e6b-85fe-474b-a935-a3ae6fc8ea2e")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "AXIAL-0.3"
+		(at 0 1.016 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ef26ec6d-c25b-45ed-8088-f356c7d65319")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fa3dff6-633b-4143-980b-a14d1ec50878")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e50ae997-5067-4628-8ed1-19e1df218be3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2034708b-6ced-413c-b1f4-8025a6848ab6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.54 -0.762)
+		(end 2.54 -0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34b9dc05-4971-47bf-9570-639a5f2f9aa2")
+	)
+	(fp_line
+		(start -2.54 0)
+		(end -2.794 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54398690-4808-4ca2-bf2e-5f038b2d3ee8")
+	)
+	(fp_line
+		(start -2.54 0)
+		(end -2.54 -0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3773379-21c7-4b05-a1c9-e57eb1226916")
+	)
+	(fp_line
+		(start -2.54 0.762)
+		(end -2.54 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "febfd13f-dece-44c3-88a9-a913f99f5660")
+	)
+	(fp_line
+		(start 2.54 -0.762)
+		(end 2.54 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6660552e-8081-44b8-809a-4044378c1a86")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "238d6155-1d16-4140-a140-0a1f12e2ebb6")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.794 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3f69149-ac77-4182-932c-5dac777b4fa4")
+	)
+	(fp_line
+		(start 2.54 0.762)
+		(end -2.54 0.762)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f47ba3f-da79-4be1-b911-eff5e0a65734")
+	)
+	(pad "P$1" thru_hole circle
+		(at -3.81 0)
+		(size 1.8796 1.8796)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "bd9ad07b-2778-4ee6-8a80-b5f26af26e41")
+	)
+	(pad "P$2" thru_hole circle
+		(at 3.81 0)
+		(size 1.8796 1.8796)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "91b8e551-f322-40a0-8110-faec37bfb03f")
+	)
+)
